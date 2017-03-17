@@ -5,7 +5,7 @@ import (
 	"os/exec"
 	"strings"
 	"strconv"
-	"github.com/shirou/gopsutil/internal/common"
+	"github.com/botherder/gopsutil/internal/common"
 )
 
 func FindProcsByFile(file_path string) ([]int, error) {
